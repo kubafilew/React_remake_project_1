@@ -1,0 +1,35 @@
+.section2 {
+  background-color: #f1f1f1;
+  padding: 0 10% 0 10%;
+}
+
+.section2-h1 {
+  color: rgb(64, 72, 77);
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  padding: 5% 0 5% 1%;
+  border-bottom: dashed 2px rgb(64, 72, 77);
+}
+
+.list1 {
+  list-style-type: none;
+  text-align: center;
+  border-bottom: dashed 2px rgb(64, 72, 77);
+  margin: 1% 7% 0 7%;
+}
+
+.person-avatar {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  margin: 1% 7% 7% 7%;
+  background-size: cover;
+  background-position: center;
+}
+
+.part2,
+.part1 {
+  display: inline-block;
+  color: rgb(64, 72, 77);
+}

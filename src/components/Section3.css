@@ -1,0 +1,88 @@
+.section3 {
+  background-color: #405d78;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-wrapper {
+  padding: 2% 0 4% 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.actionBtn {
+  background-color: rgb(255, 214, 36);
+  border: dashed 2px black;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-size: 16px;
+  font-weight: bold;
+  width: 10rem;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  line-height: 25px;
+}
+
+.actionBtn:hover {
+  box-shadow: rgba(190, 173, 150, 0.5) 0 1px 30px;
+  transition-duration: 0.1s;
+}
+
+.section3-h1 {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  padding: 5% 0 0 0;
+  font-size: 25px;
+}
+
+.section3-box {
+  padding: 5% 25%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.s3-button {
+  margin: 2%;
+  background-color: #f1f1f1;
+  height: 190px;
+  width: 190px;
+  display: flex;
+  justify-content: center;
+  transition-duration: 0.5s;
+  border: none;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.dot {
+  background: #e07a64;
+  position: absolute;
+  left: -11px;
+  top: -11px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+}
+
+.section3-p {
+  align-self: center;
+  width: 100px;
+  font-size: 20px;
+}
+
+.s3-button:hover {
+  transform: scale(1.05);
+}
+
+.arrow {
+  text-align: center;
+}
