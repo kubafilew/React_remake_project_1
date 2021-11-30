@@ -12,12 +12,14 @@ export const App = () => {
       <body>
         <Nav />
         <Section1 />
-        <a href="/#about"></a>
+        {/* <a href="#about"></a> */}
         <Section2 />
-        <a href="/#offer"></a>
+        {/* <a href="#offer"></a> */}
         <Section3 />
       </body>
     </>
   );
 };
 export default App;
+
+// nie wiem jak podlinkować sekcje
