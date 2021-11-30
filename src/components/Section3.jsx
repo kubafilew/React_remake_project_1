@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const Section3 = () => {
   const items = [
-    { id: 1, name: "Catch the moment! Street", isNew: !true },
+    { id: 1, name: "Catch the moment!", isNew: !true },
     { id: 2, name: "Classic portrait", isNew: !true },
     { id: 3, name: "Business, Corporations", isNew: true },
     { id: 3, name: "High-Fashion", isNew: !true },
@@ -13,7 +13,7 @@ const Section3 = () => {
     { id: 9, name: "Pack-shots", isNew: true },
     { id: 10, name: "Instagram", isNew: true },
     { id: 11, name: "Drone", isNew: true },
-    { id: 12, name: "Pregnant-Baby", isNew: !true },
+    { id: 12, name: "Pregnant-Baby", isNew: true },
   ];
   const INIT_SHOW_ITEM = 3;
   const [showItem, setShowItem] = useState(INIT_SHOW_ITEM);
