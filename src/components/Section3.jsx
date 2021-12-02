@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Box from "./Box";
 
 const Section3 = () => {
   const items = [
@@ -27,16 +28,9 @@ const Section3 = () => {
 
         <div class="section3-box">
           {items
-            .filter((items, index) => index <= showItem)
+            .filter((item, index) => index < showItem)
             .map(({ id, name, isNew }) => (
-              <button className="s3-button">
-                {isNew ? <div className="dot"></div> : ""}
-                <p className="section3-p">
-                  <p key={id}>
-                    {name} {isNew ? "(New)" : ""}
-                  </p>
-                </p>
-              </button>
+              <Box id={id} name={name} isNew={isNew} />
             ))}
         </div>
         <div className="btn-wrapper">

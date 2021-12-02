@@ -22,4 +22,4 @@ export const App = () => {
 };
 export default App;
 
-// nie wiem jak podlinkować sekcje
+//jak podlinkować sekcje

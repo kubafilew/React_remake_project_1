@@ -1,0 +1,36 @@
+.s3-button {
+  margin: 2%;
+  background-color: #f1f1f1;
+  height: 190px;
+  width: 190px;
+  display: flex;
+  justify-content: center;
+  transition-duration: 0.5s;
+  border: none;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.dot {
+  background: #e07a64;
+  position: absolute;
+  left: -11px;
+  top: -11px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+}
+
+.section3-p {
+  align-self: center;
+  width: 100px;
+  font-size: 20px;
+}
+
+.s3-button:hover {
+  transform: scale(1.05);
+}
+
+.arrow {
+  text-align: center;
+}
