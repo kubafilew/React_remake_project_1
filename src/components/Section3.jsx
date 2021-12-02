@@ -35,7 +35,7 @@ const Section3 = () => {
         </div>
         <div className="btn-wrapper">
           <button
-            onClick={(e) => setShowItem(showItem + 4)}
+            onClick={(e) => setShowItem(showItem + 2)}
             className="actionBtn">
             See our other skills
           </button>
