@@ -51,7 +51,7 @@ const Section2 = () => {
         </h1>
         <ul>
           {heroes
-            .filter((items, index) => index <= showHero)
+            .filter((item, index) => index <= showHero)
             .map(({ id, name, info, url }) => (
               <li class="list1">
                 <div class="part1">
