@@ -16,7 +16,7 @@ const Section3 = () => {
     { id: 11, name: "Drone", isNew: true },
     { id: 12, name: "Pregnant-Baby", isNew: true },
   ];
-  const INIT_SHOW_ITEM = 3;
+  const INIT_SHOW_ITEM = 2;
   const [showItem, setShowItem] = useState(INIT_SHOW_ITEM);
 
   return (
