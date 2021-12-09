@@ -14,7 +14,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
             class="btn contact-details">
-            <i className="fa fa-instagram"></i> Insta
+            <i className="fa fa-instagram"></i> Instagram
           </a>
           <a
             id="profile-link"
@@ -22,18 +22,20 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
             class="btn contact-details">
-            <i className="fab fa-github"></i> GitHub
+            <i className="fab fa-github"></i> Official site
           </a>
-          <a href="mailto: henri@magnum.cum" class="btn contact-details">
-            <i className="fas fa-at"></i> Send a mail
+          <a href="mailto: henri@magnum.com" class="btn contact-details">
+            <i className="fas fa-at"></i> Mail
           </a>
           <a href="tel:111 222 333" class="btn contact-details">
-            <i className="fas fa-mobile-alt"></i> Call me
+            <i className="fas fa-mobile-alt"></i> Mobile
           </a>
         </div>
       </section>
       <footer>
-        <p>Unofficial Magnum Agency site, created by fan </p>
+        <p className="creator">
+          Unofficial Magnum Agency site, created by fans{" "}
+        </p>
       </footer>
     </div>
   );

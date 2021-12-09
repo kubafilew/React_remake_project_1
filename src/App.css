@@ -225,6 +225,9 @@ body {
   padding: 5% 0 0 0;
   font-size: 25px;
 }
+p {
+  text-align: center;
+}
 /* -------------------------------------------------------------BOX---------------------------------------------------------------------------------- */
 .section3-box {
   padding: 5% 25%;
@@ -313,7 +316,7 @@ h2 {
   color: #f6c135;
   font-size: 36px;
 }
-p {
+.creator {
   font-size: 16px;
   font-style: italic;
 }
